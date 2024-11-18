@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Poe2Guru.Application", "src\Poe2Guru.Application\Poe2Guru.Application.csproj", "{2470D01D-62D6-4755-87EC-B643524879C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Poe2Guru.Domain", "src\Poe2Guru.Domain\Poe2Guru.Domain.csproj", "{319B808E-0989-4BBB-9E84-FDB8A933D867}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Poe2Guru.Infrastructure", "src\Poe2Guru.Infrastructure\Poe2Guru.Infrastructure.csproj", "{98458992-9D6D-412F-9520-37357EA51700}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Poe2Guru.Test", "tests\Poe2Guru.Test\Poe2Guru.Test.csproj", "{BA2D9623-DE06-47F2-95D0-7422DB369950}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Poe2Guru.App", "src\Poe2Guru.App\Poe2Guru.App.csproj", "{E4F52415-1FAE-4EAA-8DDB-E3BEEFEBF988}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2470D01D-62D6-4755-87EC-B643524879C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2470D01D-62D6-4755-87EC-B643524879C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2470D01D-62D6-4755-87EC-B643524879C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2470D01D-62D6-4755-87EC-B643524879C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{319B808E-0989-4BBB-9E84-FDB8A933D867}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{319B808E-0989-4BBB-9E84-FDB8A933D867}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{319B808E-0989-4BBB-9E84-FDB8A933D867}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{319B808E-0989-4BBB-9E84-FDB8A933D867}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98458992-9D6D-412F-9520-37357EA51700}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98458992-9D6D-412F-9520-37357EA51700}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98458992-9D6D-412F-9520-37357EA51700}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98458992-9D6D-412F-9520-37357EA51700}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA2D9623-DE06-47F2-95D0-7422DB369950}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA2D9623-DE06-47F2-95D0-7422DB369950}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA2D9623-DE06-47F2-95D0-7422DB369950}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA2D9623-DE06-47F2-95D0-7422DB369950}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4F52415-1FAE-4EAA-8DDB-E3BEEFEBF988}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4F52415-1FAE-4EAA-8DDB-E3BEEFEBF988}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4F52415-1FAE-4EAA-8DDB-E3BEEFEBF988}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4F52415-1FAE-4EAA-8DDB-E3BEEFEBF988}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
