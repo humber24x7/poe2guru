@@ -21,14 +21,23 @@ public static class MauiProgram
         
         // Add configuration file.
         var assembly = Assembly.GetExecutingAssembly();
-        using var stream = assembly.GetManifestResourceStream("Poe2Guru.App.appsettings.json");
-        builder.Configuration.AddJsonStream(stream);
+        using var streamAppSettings = assembly.GetManifestResourceStream("Poe2Guru.App.appsettings.json");
+        builder.Configuration.AddJsonStream(streamAppSettings); 
+        
+        // Copy database file.
+        var dbPath = Path.Combine(FileSystem.AppDataDirectory, "poe2guru.db");
+        if (!File.Exists(dbPath))
+        {
+            using var streamDb = FileSystem.OpenAppPackageFileAsync("database/poe2guru.db").Result;
+            using var fileStreamDb = File.Create(dbPath);
+            streamDb.CopyTo(fileStreamDb);
+        } 
         
         // Add infrastructure services.
-        builder.Services.AddInfrastructure(builder.Configuration);
+        builder.Services.AddInfrastructure(dbPath);
         
         // Add application services.
-        builder.Services.AddSingleton<UserService>();
+        builder.Services.AddSingleton<WeaponService>();
         
         // Add application use cases.
         

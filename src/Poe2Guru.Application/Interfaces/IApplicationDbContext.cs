@@ -5,7 +5,7 @@ namespace Poe2Guru.Application.Interfaces;
 
 public interface IApplicationDbContext
 { 
-    DbSet<User> Users { get; }
+    DbSet<Weapon> Weapons { get; }
     
     Task<int> SaveChangesAsync(CancellationToken cancellationToken);
 }

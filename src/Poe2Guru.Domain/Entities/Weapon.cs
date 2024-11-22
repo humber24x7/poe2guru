@@ -1,6 +1,6 @@
 namespace Poe2Guru.Domain.Entities;
 
-public class User
+public class Weapon
 {
     public int Id { get; set; }
     public string Name { get; set; }

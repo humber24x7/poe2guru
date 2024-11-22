@@ -72,4 +72,9 @@
       <ProjectReference Include="..\Poe2Guru.Infrastructure\Poe2Guru.Infrastructure.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <None Remove="appsettings.json" />
+      <EmbeddedResource Include="appsettings.json" />
+    </ItemGroup>
+
 </Project>

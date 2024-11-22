@@ -7,7 +7,7 @@ namespace Poe2Guru.Infrastructure;
 
 public class ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : DbContext(options), IApplicationDbContext
 {
-    public DbSet<User> Users => Set<User>();
+    public DbSet<Weapon> Weapons => Set<Weapon>();
 
     protected override void OnModelCreating(ModelBuilder builder)
     {
