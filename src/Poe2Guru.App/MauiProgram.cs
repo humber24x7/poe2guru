@@ -21,7 +21,7 @@ public static class MauiProgram
         
         // Add configuration file.
         var assembly = Assembly.GetExecutingAssembly();
-        using var streamAppSettings = assembly.GetManifestResourceStream("Poe2Guru.App.appsettings.json");
+        using var streamAppSettings = assembly.GetManifestResourceStream("Poe2Guru22222.App.appsettings.json");
         builder.Configuration.AddJsonStream(streamAppSettings); 
         
         // Copy database file.
@@ -40,7 +40,6 @@ public static class MauiProgram
         builder.Services.AddSingleton<WeaponService>();
         
         // Add application use cases.
-        
 
 #if DEBUG
         builder.Logging.AddDebug();
